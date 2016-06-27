@@ -2,4 +2,4 @@
 
 Testing out Github pages.
 
-Available at:  [http://alifar76.github.io](http://alifar76.github.io)
+Available at:  [http://alifar76.github.io/index.html](http://alifar76.github.io/index.html)
