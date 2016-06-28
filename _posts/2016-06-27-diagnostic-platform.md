@@ -72,7 +72,7 @@ In the following sections, I have developed a simple deep-learning model using t
 
 For the purpose of demonstration, I will focus on a single study carried out by [Lozupone et al](http://www.ncbi.nlm.nih.gov/pubmed/24034618). The study by _Lozupone et al_ showed an association of the gut microbiome with HIV-1 infection. Using this knowledge, I obtained the dataset for this study, which is made publicly available by the [Qiita microbiome data storage platform](https://qiita.ucsd.edu/).
 
-The dataset obtained from Qiita for Lozupone's study had HIV-1 status information available for 51 individuals. ___ individuals are HIV-1 positive and ___ individuals are HIV-1 negative.
+The dataset obtained from Qiita for Lozupone's study had HIV-1 status information available for 51 individuals. 30 individuals are HIV-1 positive and 21 individuals are HIV-1 negative. 
 
 
 ### Model building
@@ -93,7 +93,7 @@ Microbiome data: An OTU table with random OTU counts and a meta-data table provi
 
 It is beyond the scope of this post to go into the definition of OTUs. Suffice to say, I am treating bacteria/OTUs as input features in the model. 
 
-The response variable is the disease state. In this particular dataset, it is the status of HIV-1, which is either positive or negative.
+The response variable is the disease state. In this particular dataset, it is the status of HIV-1, which is either positive or negative. The dataset had information about 267 bacteria/OTUs i.e., features. The training set had 29 samples and testing set had 22 samples. 
 
 ### Model evaluation
 
