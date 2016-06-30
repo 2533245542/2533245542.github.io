@@ -39,7 +39,7 @@ The author asserts his copyright over this file and all files written by him con
 
 ### What is the Human Microbiome?
 
-A succinct answer to the question asked above is as follows, obtained from the [Human Microbiome Project website](http://hmpdacc.org/overview/about.php):
+A succinct answer to the question asked above, as obtained from the [Human Microbiome Project website](http://hmpdacc.org/overview/about.php), is as follows:
 
 - The Human Microbiome is the collection of all the microorganisms living in association with the human body. 
 - These communities consist of a variety of microorganisms including eukaryotes, archaea, bacteria and viruses. 
