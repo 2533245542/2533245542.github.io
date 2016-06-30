@@ -64,7 +64,7 @@ The composition of our microbiomes has been shown to be correlated with numerous
 
 Microbiome data can be leveraged to achieve one of the goals of systems biology in making medicine predictive, preventive, personalized and participatory. This is known as [P4 medicine](https://en.wikipedia.org/wiki/Leroy_Hood#Systems_medicine_and_.22P4_medicine.22).
 
-In the following sections, I have developed a simple deep-learning model using the microbiome data to predict the HIV status of individuals using a simple [Softmax Regression model](http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/).
+In the following sections, I have developed a simple deep-learning model using the microbiome data to predict the HIV status of individuals based on a simple [Softmax Regression model](http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/).
 
 ## Technical Details
 
