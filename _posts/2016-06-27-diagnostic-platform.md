@@ -91,7 +91,7 @@ Microbiome data: An OTU table with random OTU counts and a meta-data table provi
 </figcaption>
 </figure>
 
-It is beyond the scope of this post to go into the definition of OTUs. Suffice to say, I am treating bacteria/OTUs as input features in the model. 
+It is beyond the scope of this post to go into the definition of OTUs. Suffice to say, I am treating bacteria/OTUs as input features in the model. On a related note, OTU tables are sparse matrices.
 
 The response variable is the disease state. In this particular dataset, it is the status of HIV-1, which is either positive or negative. The dataset had information about 267 bacteria/OTUs i.e., features. The training set had 29 samples and testing set had 22 samples. 
 
