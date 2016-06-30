@@ -17,7 +17,7 @@ image:
 
 
 
-This is a proof-of-concept post based on the TensorFlow library developed by Google. The idea is simple: using a publicly available microbiome dataset, we wish to apply deep-learning algorithms for potential diagnostic platform development.
+This is a proof-of-concept post based on the TensorFlow library developed by Google. The idea is simple: using a publicly available microbiome dataset, I wish to apply deep-learning algorithms for potential diagnostic platform development.
 
 
 <figure>
@@ -62,7 +62,7 @@ There is great potential for growth in and capitalization of the microbiome mark
 
 The composition of our microbiomes has been shown to be correlated with numerous disease states by growing amount of scientific literature. The human microbiome, therefore, has an important role in the diagnosis and early detection of various diseases. 
 
-Microbiome data can be leveraged to achieve one of the goals of systems biology in making medicine predictive, preventive, personalized and participatory. This is known [P4 medicine](https://en.wikipedia.org/wiki/Leroy_Hood#Systems_medicine_and_.22P4_medicine.22).
+Microbiome data can be leveraged to achieve one of the goals of systems biology in making medicine predictive, preventive, personalized and participatory. This is known as [P4 medicine](https://en.wikipedia.org/wiki/Leroy_Hood#Systems_medicine_and_.22P4_medicine.22).
 
 In the following sections, I have developed a simple deep-learning model using the microbiome data to predict the HIV status of individuals using a simple [Softmax Regression model](http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/).
 
