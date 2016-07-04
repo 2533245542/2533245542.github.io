@@ -46,7 +46,7 @@ There is extensive literature on convolutional neural networks (CNN) and it is t
 ## Technical Details
 
 ### Reading data
-The input file of microbiome data comes as an [OTUs](http://www.drive5.com/usearch/manual/otu_definition.html) table. The individual (sample) on which microbiome data is obtained is actually a vector of OTUs. In the [Lozupone et al](http://www.ncbi.nlm.nih.gov/pubmed/24034618) dataset, we have information on 267 OTUs. Our input for CNN, therefore, is a 267x1 vector for each sample.
+The input file of microbiome data comes as an [OTU](http://www.drive5.com/usearch/manual/otu_definition.html) table. The individual (sample) on which microbiome data is obtained is actually a vector of OTUs. In the [Lozupone et al](http://www.ncbi.nlm.nih.gov/pubmed/24034618) dataset, we have information on 267 OTUs. Our input for CNN, therefore, is a 267x1 vector for each sample.
 
 ### Steps of CNN
 Convolution layers and max pooling are main elements of the CNNs. In the [simple Python script I’ve written](https://github.com/alifar76/TFMicrobiome/blob/master/src/cnn.py), the method proceeds as shown in the following figure:
