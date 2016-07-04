@@ -11,4 +11,4 @@ published: true
 ---
 
 
-My name is Ali A. Faruqi. I am a bioinformatician by training and have a Masters in Bioinformatics and Theoretical Systems Biology from Imperial College, London. I have worked as a researcher at University of California, San Francisco and am interested in managing the development of deep-learning based products for biomedical purposes. 
+My name is Ali A. Faruqi. I am a bioinformatician by training and have a Masters in Bioinformatics and Theoretical Systems Biology from Imperial College, London. I have worked as a researcher at University of California, San Francisco (UCSF) and am interested in managing the development of deep-learning based products for biomedical purposes. 
