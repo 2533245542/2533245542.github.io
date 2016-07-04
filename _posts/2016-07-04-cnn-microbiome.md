@@ -91,4 +91,4 @@ Few variables that I have not explored so far include:
 3. Randomizing the training and test datasets
 4. Changing the amount of noise used to initialize weights for the model
 
-Summing up, even though CNN has not performed as well compared to basic softmax regression, there is potential for further fine tuning this model. Larger microbiome datasets can be used for this purpose and along the suggestions provided above.
+Summing up, even though CNN has not performed as well compared to basic softmax regression, there is potential for further fine tuning this model. Larger microbiome datasets can be used for this purpose and along with the suggestions provided above.
