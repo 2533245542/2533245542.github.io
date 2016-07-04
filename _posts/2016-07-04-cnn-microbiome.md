@@ -81,8 +81,8 @@ Even though CNN model is more sophisticated than basic softmax regression, we ge
 1. Train-to-test split ratio: The highest accuracy I got was with train to test ratio of 0.55.
 2. Max-pooling: Whether one does max-pooling or not, it did not seem to have an impact on accuracy with the current microbiome dataset.
 3. Dropout: Like  max-pooling, doing or not doing dropout does not seem to be impacting the accuracy.
-4. Gradient descent optimizers: AdadeltaOptimizer with learning_rate = 0.1, rho = 0.95 and epsilon = 1e-02 seems to be giving accuracy of 0.77. I have also tried AdamOptimizer and it seems to be giving comparable results. I haven’t tried other optimizer.
-5. Stride for conv2d and maxpool: The highest accuracy is when the stride of the sliding window is 1 for both conv2d and maxpool at the start of the script.
+4. Gradient descent optimizers: AdadeltaOptimizer with learning_rate = 0.1, rho = 0.95 and epsilon = 1e-02 seems to be giving accuracy of 0.77. I have also tried AdamOptimizer and it seems to be giving comparable results. I haven’t tried other optimizers.
+5. Stride for conv2d and maxpool: The highest accuracy is when the stride of the sliding window is 1 for both conv2d and maxpool at the start of the script i.e., the input to the first convolutional layer.
 
 Few variables that I have not explored so far include:
 
