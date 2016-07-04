@@ -109,10 +109,13 @@ Moving forward, there are two areas where effort needs to be put in.
 
 I have made use of only a small microbiome dataset. From a statistical perspective, the sample size is small and there is a need for larger datasets to train the models. As a product manager, I'd like my team to put effort in collecting more data.
 
-Additionally, and from a biological point-of-view, microbiome is part of the picture. At a molecular level, there are other high-throughput datasets available such as that of the genome, transcriptome, proteome and metabolome. By integrating the various 'omics' datasets for a given individual, we can develop a truly systems level understanding of various biological diseases and achieve the objectives of P4 medicine.
-
-
+Additionally, and from a biological point-of-view, microbiome is part of the picture. At a molecular level, there are other high-throughput datasets available such as that of the [genome](https://ghr.nlm.nih.gov/primer/hgp/genome), [transcriptome](https://www.genome.gov/13014330/transcriptome-fact-sheet/), [proteome](http://www.humanproteomemap.org/) and [metabolome](http://www.hmdb.ca/). By integrating the various 'omics' datasets for a given individual, we can develop a truly systems level understanding of various biological diseases and achieve the objectives of P4 medicine.
 
 ### Other deep learning algorithms
 
 As a simple POC, I made use of the simplistic softmax regression model. It is not the most powerful method out there. Moving forward, I'd like to see some more sophisticated algorithms being employed such as convolutional neural networks and recurrant neural networks, to name a few. 
+
+### Feature selection in deep-learning
+
+One of the aims of medicine is to make inference. That is, given the diagnosis, how can one know etiology of the disease and develop appropriate intervention and prevention strategies. In the context of deep-learning for microbiome, the aim is not just to make a prediction about disease. It is also about feature selection. We’d like to know which features i.e., microbes, are important in causing or preventing the disease. This will help in the development of therapeutics. 
+The challenge, therefore, is to develop a deep-learning system that can, apart from making accurate prediction about diseases, can also provide information of about the microbes, genes, proteins and metabolites that impact the health status.
