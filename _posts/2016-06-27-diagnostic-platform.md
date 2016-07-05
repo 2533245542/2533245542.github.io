@@ -107,13 +107,13 @@ Moving forward, there are two areas where effort needs to be put in.
 
 ### Other biological datasets
 
-I have made use of only a small microbiome dataset. From a statistical perspective, the sample size is small and there is a need for larger datasets to train the models. As a product manager, I'd like my team to put effort in collecting more data.
+I have made use of only a small microbiome dataset. From a statistical perspective, the sample size is small and there is a need for larger datasets to train the models.
 
 Additionally, and from a biological point-of-view, microbiome is part of the picture. At a molecular level, there are other high-throughput datasets available such as that of the [genome](https://ghr.nlm.nih.gov/primer/hgp/genome), [transcriptome](https://www.genome.gov/13014330/transcriptome-fact-sheet/), [proteome](http://www.humanproteomemap.org/) and [metabolome](http://www.hmdb.ca/). By integrating the various 'omics' datasets for a given individual, we can develop a truly systems level understanding of various biological diseases and achieve the objectives of P4 medicine.
 
 ### Other deep learning algorithms
 
-As a simple POC, I made use of the simplistic softmax regression model. It is not the most powerful method out there. Moving forward, I'd like to see some more sophisticated algorithms being employed such as convolutional neural networks and recurrant neural networks, to name a few. 
+As a simple POC, I made use of the simplistic softmax regression model. It is not the most powerful method out there. Moving forward, I'd like to see some more sophisticated algorithms being employed such as [convolutional neural networks](http://alifar76.github.io/cnn-microbiome/) and recurrant neural networks, to name a few. 
 
 ### Feature selection in deep-learning
 
