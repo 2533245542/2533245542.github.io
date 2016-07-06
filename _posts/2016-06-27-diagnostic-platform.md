@@ -103,7 +103,7 @@ Even though the dataset was small and the model simple, I ended up getting an ac
 
 ## Future Directions
 
-Moving forward, there are two areas where effort needs to be put in.
+Moving forward, there are three broad areas where effort needs to be put in.
 
 ### Other biological datasets
 
