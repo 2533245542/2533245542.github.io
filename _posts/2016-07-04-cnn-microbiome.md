@@ -90,5 +90,6 @@ Few variables that I have not explored so far include:
 2. Changing the output channel values of convolutional layers
 3. Randomizing the training and test datasets
 4. Changing the amount of noise used to initialize weights for the model
+5. Try different activation functions (such as tanh, sigmoid, elu) instead of relu.
 
 Summing up, even though CNN has not performed as well compared to basic softmax regression, there is potential for further fine tuning this model. Larger microbiome datasets can be used for this purpose and along with the suggestions provided above.
