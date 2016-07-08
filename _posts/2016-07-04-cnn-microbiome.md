@@ -34,7 +34,7 @@ The author asserts his copyright over this file and all files written by him con
 **This work is copyright © Ali A. Faruqi 2016. All rights reserved.**
 
 
-## Introduction
+## 1. Introduction
 
 In a previous post, [I discussed about the microbiome, its market capitalization and its potential to be used in diagnosis of diseases](http://alifar76.github.io/diagnostic-platform/). I further demonstrated how even a simple deep-learning algorithm, as implemented in [TensorFlow](https://github.com/tensorflow/tensorflow), can be applied on a given microbiome dataset and provide not-so-bad accuracy.
 
@@ -43,12 +43,12 @@ Being fairly new to the field of neural networks and being completely self-taugh
 There is extensive literature on convolutional neural networks (CNN) and it is the beyond the scope of this post to do an extensive survey on CNNs. In this post, I will provide a description of applying CNNs to microbiome data as a proof-of-concept exercise. This is the first time, to the best of my knowledge, that CNNs have been applied to microbiome data. So, without further ado, let’s dive right into CNNs.
 
 
-## Technical Details
+## 2. Technical Details
 
-### Reading data
+### 2A. Reading data
 The input file of microbiome data comes as an [OTU](http://www.drive5.com/usearch/manual/otu_definition.html) table. The individual (sample) on which microbiome data is obtained is actually a vector of OTUs. In the [Lozupone et al](http://www.ncbi.nlm.nih.gov/pubmed/24034618) dataset, we have information on 267 OTUs. Our input for CNN, therefore, is a 267x1 vector for each sample.
 
-### Steps of CNN
+### 2B. Steps of CNN
 Convolution layers and max pooling are the main elements of CNNs. In the [simple Python script I’ve written called cnn.py](https://github.com/alifar76/TFMicrobiome), the method proceeds as shown in the following figure:
 
 <figure>
@@ -68,13 +68,13 @@ To elaborate the figure a bit more:
 4. Dropout is performed on the output of densely connected layer.
 5. The output of dropout is finally passed to the readout layer, which performs simple softmax regression.
 
-### Input reshaping
+### 2C. Input reshaping
 
 In traditional image classification datasets, such as [MNIST](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/download/index.html), one would like to reshape the flattened image pixel vector back to the original 2d image array. 
 
 [tf.nn.conv2d method in TensorFlow library](https://www.tensorflow.org/versions/r0.9/api_docs/python/nn.html#conv2d), which computes a 2-D convolution given 4-D input and filter tensors can be used for this purpose. Unlike the MNIST dataset, in which the in_height and in_width of the input tensor can be set to 28x28, in the microbiome dataset, the in_height and in_width are set to 1 and 267 respectively, where 267 is the number of OTUs (features) in the dataset.
 
-## CNN Results
+## 3. Results
 
 Even though CNN model is more sophisticated than basic softmax regression, we get a much lower accuracy (of about 0.772) for our dataset using CNN. I have tried playing around with different variables and parameters. Following are some of the variables I have tried to manipulate.
 
@@ -92,8 +92,7 @@ Few variables that I have not explored so far include:
 4. Changing the amount of noise used to initialize weights for the model
 5. Try different activation functions (such as tanh, sigmoid, elu) instead of relu.
 
-
-## Discussion
+## 4. Discussion
 
 One reason for the relatively poor performance of convolutional neural networks over softmax regression, maybe, has to do with the type of input data. CNNs are great for tasks such as image classification because they can take into account the spatial structure of the data. In image classification, for example, input pixels which are spatially closer together would have higher correlation that pixels far apart.
 
