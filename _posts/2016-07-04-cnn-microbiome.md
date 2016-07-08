@@ -83,14 +83,14 @@ Even though CNN model is more sophisticated than basic softmax regression, we ge
 3. Dropout: Like  max-pooling, doing or not doing dropout does not seem to be impacting the accuracy.
 4. Gradient descent optimizers: AdadeltaOptimizer with learning_rate = 0.1, rho = 0.95 and epsilon = 1e-02 seems to be giving accuracy of 0.77. I have also tried AdamOptimizer and it seems to be giving comparable results. I haven’t tried other optimizers.
 5. Stride for conv2d and maxpool: The highest accuracy is when the stride of the sliding window is 1 for both conv2d and maxpool at the start of the script i.e., the input to the first convolutional layer.
+6. Changing activation functions: Changing the activation functions from relu to relu6, elu, sigmoid, tanh, softplus and softsign didn’t change the accuracy.
+7. Bias variable initialization: I changed the value of bias variable initialization from 0.1 to 1 to 10 to 100 but did not see increase in accuracy.
 
 Few variables that I have not explored so far include:
 
 1. Changing the number of convolutional layers
 2. Changing the output channel values of convolutional layers
 3. Randomizing the training and test datasets
-4. Changing the amount of noise used to initialize weights for the model
-5. Try different activation functions (such as tanh, sigmoid, elu) instead of relu.
 
 ## 4. Discussion
 
