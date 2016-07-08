@@ -92,4 +92,11 @@ Few variables that I have not explored so far include:
 4. Changing the amount of noise used to initialize weights for the model
 5. Try different activation functions (such as tanh, sigmoid, elu) instead of relu.
 
-Summing up, even though CNN has not performed as well compared to basic softmax regression, there is potential for further fine tuning this model. Larger microbiome datasets can be used for this purpose and along with the suggestions provided above.
+
+## Discussion
+
+One reason for the relatively poor performance of convolutional neural networks over softmax regression, maybe, has to do with the type of input data. CNNs are great for tasks such as image classification because they can take into account the spatial structure of the data. In image classification, for example, input pixels which are spatially closer together would have higher correlation that pixels far apart.
+
+In the microbiome dataset, however, there is no corresponding spatially local correlation that CNNs can exploit by enforcing a local connectivity pattern. One way to develop an analog for spatially local correlations in microbiome data is to utilize the [phylogenetic relationship](https://en.wikipedia.org/wiki/Phylogenetics) information between OTUs. That is, OTUs that evolutionarily closer can have higher correlation than OTUs that are evolutionarily distant. This is something I can explore in future posts.
+
+Summing up, even though CNN has not done a better job compared to basic softmax regression, there is potential for further fine tuning this model. Larger microbiome datasets can be used for this purpose, evolutionary information can be taken into account and further parameter tuning can be done in order to improve the predictive power of the model.
