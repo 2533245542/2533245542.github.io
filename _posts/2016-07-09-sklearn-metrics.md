@@ -101,7 +101,7 @@ The implementation of MLP in scikit-learn is still in development stages. For th
 
 Blending is one of the approaches to create datasets from predictions of different classifiers and then train a new classifier on top of it. I came across this approach while reading a blog entry titled [*Kaggle Ensembling Guide* on MLWave website](http://mlwave.com/kaggle-ensembling-guide/). 
 
-It’s a powerful technique that many top Kagglers use. According to the entry, the advantage of blending is that prevents information leak since generalizers and stackers used different data. 
+It’s a powerful technique that many top Kagglers use. According to the entry, the advantage of blending is that prevents information leak since generalizers and stackers use different data. 
 
 The same blog post referred to a [Python script by Emanuele Olivetti](https://github.com/emanuele/kaggle_pbr/blob/master/blend.py), which I modified slightly to read in the microbiome data and perform blending. The generalizers used were the 5 different scikit-learn classifiers: Gaussian Naive Bayes, Random Forests, Gradient Boosting Trees, Support Vector Machines and Multi-layer Perceptron. Final blending was done with [LogisticRegression() class of scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) with default values.
 
