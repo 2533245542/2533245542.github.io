@@ -87,7 +87,7 @@ I used [GradientBoostingClassifier() class](http://scikit-learn.org/stable/modul
 
 I used SVC() class of scikit-learn library to apply SVM on the dataset. Based on the results of cross-validated grid search, I chose the default [Radial Basis Function (RBF) kernel SVM with C=10 and gamma=0.001](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC)
 
-[The C-parameter determines simplicity of the decision surface. A low C value makes the decision surface smooth while a high C value helps in classifying all training samples correctly. The gamma parameter measures the extent of influence of a training sample. A low value indicates a far reaching effect and high value refers to a close effect](http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html).
+[The C-parameter determines the complexity of the decision surface. A low C value makes the decision surface smooth while a high C value make a more complex surface and helps in classifying all training samples correctly. The gamma parameter measures the extent of influence of a training sample. A low value indicates a far reaching effect and high value refers to a close effect](http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html).
 
 ### 2E. Multi-layer Perceptron (MLP) 
 
