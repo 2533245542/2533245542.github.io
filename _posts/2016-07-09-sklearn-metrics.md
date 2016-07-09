@@ -41,6 +41,8 @@ In order to make medicine truly predictive, we need powerful predictive models t
 
 Microbiome profile is a proxy for various diseases. Using it as an input, we’d like to know the disease status of an individual. In this post, I will explore the application of some classical machine learning algorithms on microbiome data and see how well they compare to models implemented in TensorFlow that I discussed in my earlier posts, [here](http://alifar76.github.io/diagnostic-platform/) and [here](http://alifar76.github.io/cnn-microbiome/).
 
+This post is a continuation of my previous proof-of-concept posts in which I was using a microbiome dataset as input to deep-learning models in order to predict the HIV status based on a study by [Lozupone et al](http://www.ncbi.nlm.nih.gov/pubmed/24034618).
+
 ## 2. Technical Details
 
 A number of models exist in machine learning literature that are suitable for classification tasks. Many of these models have different parameters that are not directly learned during the training session. The optimal values of these parameters can be searched in a user-defined parameter search space and subsequently cross-validated. 
