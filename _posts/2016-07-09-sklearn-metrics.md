@@ -139,7 +139,7 @@ However, there is also a famous paper by Profs. Ng and Jordan titled “[*On Dis
 It seems that non-linear models are doing a poor job in making accurate disease predictions from the microbiome dataset compared to linear models such as Logistic Regression and Gaussian Naive Bayes. Maybe this is a reflection of the microbiome dataset itself rather than the shortcomings of more complex models.
 
 
-### 4. Conclusion
+## 4. Conclusion
 
 In this post, I have tried the application of different machine/deep learning algorithms on a microbiome dataset and assessed the accuracy of each method. It’s not a truly apples-to-apples comparison since different machine learning models have different levels of complexity, work on different assumptions and require different hyper-parameters to tune.
 
