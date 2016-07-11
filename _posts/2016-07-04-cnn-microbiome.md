@@ -29,7 +29,7 @@ A typical Convolutional Neural Network with convolutional layer, max-pooling and
 </figure>
 
 ## Copyright Declaration
-The author asserts his copyright over this file and all files written by him containing links to this copyright declaration under the terms of the copyright laws in force in the country you are reading this work in.
+Except for the image above this declaration, the author asserts his copyright over this file and all files written by him containing links to this copyright declaration under the terms of the copyright laws in force in the country you are reading this work in.
 
 **This work is copyright © Ali A. Faruqi 2016. All rights reserved.**
 
