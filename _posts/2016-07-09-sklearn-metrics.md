@@ -143,4 +143,6 @@ It seems that non-linear models are doing a poor job in making accurate disease 
 
 In this post, I have tried the application of different machine/deep learning algorithms on a microbiome dataset and assessed the accuracy of each method. It’s not a truly apples-to-apples comparison since different machine learning models have different levels of complexity, work on different assumptions and require different hyper-parameters to tune.
 
-In my opinion, it is, nonetheless, interesting to apply different models on the same dataset in order to learn more about the dataset itself and see if there is any '*convergence*', so to speak, between the results/performance of different models. This will ultimately help us in developing a truly powerful diagnostic platform for disease detection and can help in improving the lives of human beings.
+In my opinion, it is, nonetheless, interesting to apply different models on the same dataset in order to learn more about the dataset itself and see if there is any '*convergence*', so to speak, between the results/performance of different models. 
+
+From the perspective of disease diagnosis, our aim is to be as accurate as possible. It is, therefore, worthwhile to apply different models on the data in order to find the one that has highest accuracy. This will ultimately help us in developing a truly powerful diagnostic platform for disease detection and can help in improving the lives of human beings.
