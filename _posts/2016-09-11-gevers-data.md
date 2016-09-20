@@ -39,7 +39,7 @@ Unless otherwise stated, the author asserts his copyright over this file and all
 
 In my [previous posts](http://alifar76.github.io/sklearn-metrics/), I applied different machine learning algorithms to a specific microbiome dataset for HIV prediction. The dataset was quite small and had information of only 51 subjects. The next logical step, in my journey of applied machine-learning for disease detection, was to obtain a larger microbiome dataset. 
 
-This I did by getting hold of the files from the study by Gevers et al. The [study by Gevers et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4059512/) is one the largest microbiome studies in pediatric inflammatory bowel diseases (IBD) area. Amongst other things, the study explored the role of biopsy-associated microbiome for diagnosis of Crohn’s disease (CD). 
+This I did by getting hold of the files from the study by Gevers et al. The [study by Gevers et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4059512/) is one of the largest microbiome studies in pediatric inflammatory bowel diseases (IBD) area. Amongst other things, the study explored the role of biopsy-associated microbiome for diagnosis of Crohn’s disease (CD). 
 
 The data from this study was obtained from the QIITA website. The OTU table and meta-data file provided information about 1359 human samples, which were divided into 4 categories. 731 subjects had Crohn’s disease (CD), 219 had ulcerative colitis (UC), 73 had indeterminate colitis (IC) and 336 were healthy subjects. The OTU table additionally had information about 9511 OTUs.
 
