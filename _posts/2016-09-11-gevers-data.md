@@ -16,7 +16,7 @@ image:
 
 
 
-In this post I will be applying machine/deep learning methods to one a dataset from one of the largest Inflammatory bowel disease (IBD) microbiome study in humans.
+In this post I will be applying machine/deep learning methods to a dataset from one of the largest Inflammatory bowel disease (IBD) microbiome study in humans.
 
 
 <figure>
@@ -120,4 +120,4 @@ I hope I can get funding and/or collaborative support to access a GPU machine/cl
 
 As seen from this analysis, more sophisticated models have done a much better job at prediction than simpler ones. One of the reasons for this success of complex models over simpler ones probably is large sample size. 
 
-Moving forward, I will write a post that will provide some preliminary but promoting results on how microbiome plus machine learning beat the state-of-the-art disease diagnosis test for an extremely important disease. Stay tuned!
+Moving forward, I will write a post that will provide some preliminary but promising results on how microbiome plus machine learning beat the state-of-the-art disease diagnosis test for an extremely important disease. Stay tuned!
